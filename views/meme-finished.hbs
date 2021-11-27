@@ -16,9 +16,9 @@
           <span><span class="material-icons">perm_identity</span> {{owner.username}}</span>
         {{#if ../userid}}  
           {{#if checked}}
-          <span>Fav<a href='/memes/community/{{_id}}'><span class='material-icons red fav'> favorite</span></a></span> 
+          <span class="favheart">Fav<a href='/memes/community/{{_id}}'><span class='material-icons red fav'> favorite</span></a></span> 
           {{else}}
-            <span>Fav
+            <span class="favheart">Fav
               <a
                 href='/memes/community/{{_id}}'
               ><span class='material-icons fav'>favorite_border</span> </a></span>

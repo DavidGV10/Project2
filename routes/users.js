@@ -107,7 +107,6 @@ router.get('/user-profile', isLoggedIn, async (req, res) => {
     const favourites = await User.findById(userId).populate('favourites')
     const fav = favourites.favourites
     for(let el of fav){
-      console.log(el.url)
     }
     
 

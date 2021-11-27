@@ -144,6 +144,7 @@ h1 {
   justify-content: flex-end;
   text-shadow: 1px 1px 3px #4e4e4e;
   font-size: 1.2rem;
+  background-color: #fefefe5b;
 }
 .fav {
   font-size: 0.9rem;
@@ -330,7 +331,10 @@ h1 {
   color: #aaa;
   margin-bottom: 0;
 }
-
+.favheart{
+  position: relative;
+  top: 4px;
+}
 /* Meme List */
 .title-memes {
   text-align: center;
@@ -339,7 +343,7 @@ h1 {
   font-size: 2.2rem;
   letter-spacing: 2px;
   margin-bottom: 50px;
-  margin-top: 0;
+  margin-top: 40px;
 }
 
 .mt-boxes {
@@ -470,6 +474,11 @@ h1 {
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 20px;
+}
+.container-log-del{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .button-edit button {
